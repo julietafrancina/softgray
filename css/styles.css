@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  -webkit-box-sizing: box;
+          box-sizing: box;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #313131;
+  margin: 0;
+}
+
+body .header .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+}
+
+body .header .header-wrapper .logo-button {
+  font-weight: 900;
+  text-decoration: none;
+  color: #313131;
+  font-size: 1.5rem;
+}
+
+body .header .header-wrapper .nav-container .nav-button {
+  text-decoration: none;
+  color: #313131;
+  margin-right: 2rem;
+}
+
+body .header .header-wrapper .nav-container .tel {
+  font-weight: 900;
+  margin-left: 2rem;
+}
+
+body .hero {
+  background-color: #484848;
+  color: #ffffff;
+}
+
+body .hero .hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 10rem 5rem;
+}
+
+body .hero .hero-wrapper .main-title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+body .hero .hero-wrapper .main-text {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+body .features {
+  background-color: #eeeeee;
+  min-height: 450px;
+}
+
+body .features .feature-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .features .feature-container .feature {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+body .features .feature-container .feature .material-icons {
+  background-color: #3498db;
+  font-size: 2.5rem;
+  padding: 2rem;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+body .features .feature-container .feature .material-icons:first-child {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+body .features .feature-container .feature .feature-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #3498db;
+}
+
+body .features .feature-container .feature .feature-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0 1rem 0;
+}
+/*# sourceMappingURL=styles.css.map */

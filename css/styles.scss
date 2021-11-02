@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+$main-color: #313131;
+$second-color: #3498db;
+
+* {
+    box-sizing: box;
+}
+
+.content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #313131;
+    margin: 0;
+
+    .header {
+        .header-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+
+            .logo-button {
+                font-weight: 900;
+                text-decoration: none;
+                color: $main-color;
+                font-size: 1.5rem;
+            }
+
+            .nav-container {
+                .nav-button {
+                    text-decoration: none;
+                    color: $main-color;
+                    margin-right: 2rem;
+                }
+
+                .tel {
+                    font-weight: 900;
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+
+    .hero {
+        background-color: #484848;
+        color: #ffffff;
+
+        .hero-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3rem 10rem 5rem;
+
+            .main-title {
+                font-weight: 900;
+                font-size: 3rem;
+            }
+
+            .main-text {
+                text-align: center;
+                line-height: 1.8rem;
+            }
+        }
+    }
+
+    .features {
+        background-color: #eeeeee;
+        min-height: 450px;
+
+        .feature-container {
+            display: flex;
+
+            .feature {
+                text-align: center;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                flex-grow: 0;
+
+                .material-icons {
+                    background-color: $second-color;
+                    font-size: 2.5rem;
+                    padding: 2rem;
+                    color: #ffffff;
+                    border-radius: 50%;
+                }
+
+                .material-icons:first-child {
+                    transform: rotateY(180deg);
+                }
+
+                .feature-title {
+                    font-weight: 900;
+                    font-size: 1.2rem;
+                    color: $second-color;
+                }
+
+                .feature-text {
+                    text-align: justify;
+                    text-justify: inter-word;
+                    padding: 0 1rem 0;
+                }
+            }
+        }
+    }
+}
